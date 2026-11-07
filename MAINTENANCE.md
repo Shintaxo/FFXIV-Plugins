@@ -1,3 +1,15 @@
+# Current 0.1.5 recovery hotfix
+
+Current source snapshot: ec7c0d9e5868abe161e7cd400b279c55b8acfd63.
+Version 0.1.5.0 / API15. Native explicit file saves are disabled; session-only mode.
+For an old 0.1.4 backup, use Undo before new profile applies; preserve personal config.
+Do not re-enable native UserFileEvent saving by weakening ownership/type guards.
+Public release tag keybindprofiles-v0.1.5. Plugin/source hashes:
+- c8f122c31b36daed622d3bba4a0a587993ae5f80233bea7292cdee9d53dd3d1a
+- 7fc4552de13bfe968cf50ad71172e72e1cd4da87ec1bae77ee08c550494bbfa5
+
+The following 0.1.4 record is historical and superseded for new installations.
+
 # Distribution maintenance
 
 This repo is the public distribution index, not a replacement for either source

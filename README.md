@@ -29,13 +29,17 @@ Tracks locally observed party potion use per pull. Source and downloads remain
 in [FFXIV-Potion-Tracker](https://github.com/Shintaxo/FFXIV-Potion-Tracker).
 No detected onset does not prove that a player did not use a potion.
 
-### Keybind Profiles — 0.1.4 EXPERIMENTAL
+### Keybind Profiles — 0.1.5 SESSION-ONLY HOTFIX
 
 Save and explicitly apply character-specific primary hotbar keybind profiles.
 
 **WARNING: bindings may revert after logout or a game restart. You may need to
-manually apply your desired profile again after logging in.** The persistence
-fix requests a game save but is not yet verified by live relog/restart testing.
+manually apply your desired profile again after logging in.** 0.1.5 disables explicit native file saving after the 0.1.4 save guard blocked
+profile use. This restores session-only operation; it is NOT a restart-persistence fix.
+
+If upgrading with an old pending backup: keep all saved profiles, update, click
+**Undo profile switch** on the same character, then preview/apply the desired profile.
+The recovery may restore original primary bindings; it does not delete saved profiles.
 If a save/recovery error is pending, preserve the backup and inspect the error;
 do not repeatedly apply profiles.
 No automatic application on login and no automatic job switching.
@@ -47,7 +51,7 @@ Vorher Spiel-Einstellungen und Plugin-Konfiguration sichern.
 Managed safety, profile and SDK/migration checks and a Windows CI build passed.
 These do not prove native disk persistence or successful installation in your game.
 
-The [experimental release](https://github.com/Shintaxo/FFXIV-Plugins/releases/tag/keybindprofiles-v0.1.4-test.1)
+The [experimental release](https://github.com/Shintaxo/FFXIV-Plugins/releases/tag/keybindprofiles-v0.1.5)
 contains the ready-built ZIP, installation instructions, license and matching
 source archive. The source project repository remains private; the corresponding
 source snapshot is publicly provided with this distribution under AGPL-3.0.

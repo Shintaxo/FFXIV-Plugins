@@ -23,8 +23,8 @@
     "Author": "Shintaxo",
     "Name": "Keybind Profiles",
     "InternalName": "KeybindProfiles",
-    "AssemblyVersion": "0.1.4.0",
-    "Description": "Experimental character-specific primary hotbar keybind profiles with preview and undo. WARNING: bindings may revert after logout or game restart; you may need to manually apply your desired profile again. The persistence fix is not yet verified in-game. Back up game settings before use. No automatic profile application or job switching. If a save/recovery error is pending, preserve the backup and inspect the error; do not repeatedly apply profiles.",
+    "AssemblyVersion": "0.1.5.0",
+    "Description": "Character-specific keyboard profiles with preview and undo.\nChanges primary bindings only, never actions. No automatic job switching.\nOpen with /keybindprofiles. Experimental plugin developed with AI assistance.\nSESSION-ONLY HOTFIX: explicit game-file saving is disabled. After logout or restart you may need to manually reapply your profile. If an old backup is pending, use Undo profile switch before applying again; do not delete your saved profiles.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Shintaxo/FFXIV-Plugins",
     "Tags": [
@@ -37,13 +37,13 @@
     "LoadSync": false,
     "CanUnloadAsync": false,
     "LoadPriority": 0,
-    "Punchline": "Experimental keybind profiles; may need reapplying after restart.",
+    "Punchline": "Session-only keybind profiles; fixes the 0.1.4 undo-backup lock.",
     "AcceptsFeedback": true,
-    "Changelog": "0.1.4: requests game keybind saving after apply/undo. Experimental: relog/restart persistence is not confirmed. If old bindings return, manually reapply the desired profile.",
+    "Changelog": "0.1.5 HOTFIX: disables unverified explicit game-file saving that blocked 0.1.4. Existing saves are preserved. If an old backup is pending, click Undo profile switch once, then preview/apply your desired profile. Restart persistence is not guaranteed.",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/Shintaxo/FFXIV-Plugins/releases/download/keybindprofiles-v0.1.4-test.1/KeybindProfiles-0.1.4-test.zip",
-    "DownloadLinkUpdate": "https://github.com/Shintaxo/FFXIV-Plugins/releases/download/keybindprofiles-v0.1.4-test.1/KeybindProfiles-0.1.4-test.zip",
-    "LastUpdate": "1794081763"
+    "LastUpdate": "1794085118",
+    "DownloadLinkInstall": "https://github.com/Shintaxo/FFXIV-Plugins/releases/download/keybindprofiles-v0.1.5/KeybindProfiles-0.1.5.zip",
+    "DownloadLinkUpdate": "https://github.com/Shintaxo/FFXIV-Plugins/releases/download/keybindprofiles-v0.1.5/KeybindProfiles-0.1.5.zip"
   }
 ]
