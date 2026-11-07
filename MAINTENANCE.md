@@ -14,8 +14,8 @@ releases. Current baseline: version 0.4.4.0, original upstream URLs unchanged.
 
 ## Keybind Profiles
 
-Current binary/source snapshot: 6b9435faf4dc8426c882829c2b4f2e7984a8b400,
-assembly 0.1.4.0, API 15. Public assets are the exact tested private-release ZIPs.
+Current binary/source snapshot: 4a7a923403381f202c8ac07f28dee3952a1347ce,
+assembly 0.1.4.0, API 15. Public assets are sanitized Release rebuilds; runtime logic is unchanged.
 Do not remove the experimental/restart warning without successful live acceptance.
 The original source repository stays private; corresponding source ZIP + AGPL
 license must remain available alongside each distributed binary.
@@ -37,9 +37,9 @@ Do not run private-source repository release workflows from this index repo.
 ## Initial binary hashes
 
 - KeybindProfiles-0.1.4-test.zip:
-  09f2bae5548500faabfa50d46a5624ff6986da198d2d8fd5e52467f7f7ee041a
+  a6867f67152fb9f8a228e3c55e723df98682abd6a38dd97192b15a62c3ad84f5
 - KeybindProfiles-0.1.4-source.zip:
-  c155c7e04492e71226f19e93dbdfbc5328d7ccc577cce69b580572dd253e423c
+  580f50f9e6d611e1a20cd7d0ff3a0c03d6c9a8fc743e619986dfc6adad074581
 
 ## Rollback
 

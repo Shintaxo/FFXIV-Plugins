@@ -36,6 +36,8 @@ Save and explicitly apply character-specific primary hotbar keybind profiles.
 **WARNING: bindings may revert after logout or a game restart. You may need to
 manually apply your desired profile again after logging in.** The persistence
 fix requests a game save but is not yet verified by live relog/restart testing.
+If a save/recovery error is pending, preserve the backup and inspect the error;
+do not repeatedly apply profiles.
 No automatic application on login and no automatic job switching.
 
 **Hinweis: Nach Ausloggen oder Spielneustart können alte Keybinds zurückkehren.
