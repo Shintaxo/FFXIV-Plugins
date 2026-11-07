@@ -1,0 +1,49 @@
+[
+  {
+    "Author": "Shintaxo",
+    "Name": "Potion Tracker",
+    "InternalName": "PotionTracker",
+    "AssemblyVersion": "0.4.4.0",
+    "Description": "Track party potion usage per pull in Savage, Ultimate and Extreme duties. View results with /potions.",
+    "Punchline": "Party potion tracking by pull.",
+    "RepoUrl": "https://github.com/Shintaxo/FFXIV-Potion-Tracker",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "Tags": [
+      "utility",
+      "combat"
+    ],
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/Shintaxo/FFXIV-Potion-Tracker/releases/download/v0.4.4/PotionTracker.zip",
+    "DownloadLinkUpdate": "https://github.com/Shintaxo/FFXIV-Potion-Tracker/releases/download/v0.4.4/PotionTracker.zip",
+    "LastUpdate": "1792449192"
+  },
+  {
+    "Author": "Shintaxo",
+    "Name": "Keybind Profiles",
+    "InternalName": "KeybindProfiles",
+    "AssemblyVersion": "0.1.4.0",
+    "Description": "Experimental character-specific primary hotbar keybind profiles with preview and undo. WARNING: bindings may revert after logout or game restart; you may need to manually apply your desired profile again. The persistence fix is not yet verified in-game. Back up game settings before use. No automatic profile application or job switching. If a save/recovery error is pending, preserve the backup and inspect the error; do not repeatedly apply profiles.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/Shintaxo/FFXIV-Plugins",
+    "Tags": [
+      "keybind",
+      "hotbar",
+      "profiles"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Experimental keybind profiles; may need reapplying after restart.",
+    "AcceptsFeedback": true,
+    "Changelog": "0.1.4: requests game keybind saving after apply/undo. Experimental: relog/restart persistence is not confirmed. If old bindings return, manually reapply the desired profile.",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/Shintaxo/FFXIV-Plugins/releases/download/keybindprofiles-v0.1.4-test.1/KeybindProfiles-0.1.4-test.zip",
+    "DownloadLinkUpdate": "https://github.com/Shintaxo/FFXIV-Plugins/releases/download/keybindprofiles-v0.1.4-test.1/KeybindProfiles-0.1.4-test.zip",
+    "LastUpdate": "1794081763"
+  }
+]
